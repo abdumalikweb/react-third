@@ -1,0 +1,105 @@
+.Select_card {
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+}
+.cart-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+
+  /* Black */
+}
+.cart-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+  /* Black */
+
+  color: #191919;
+}
+.pricee {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carl-text {
+  background: #ffeee2;
+  color: #ff7010;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 6px;
+  button {
+    background: #ffeee2;
+    color: #ff7010;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .text-muted {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    text-align: center;
+
+    color: #ff7010;
+  }
+}
+.carl-tt {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height, or 125% */
+
+  text-align: right;
+
+  color: #ff7010;
+}
+.allSum_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bton {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /* White */
+  background: #ff7010;
+  border-radius: 6px;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    background:#ea5d00;
+  }
+}

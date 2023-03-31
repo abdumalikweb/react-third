@@ -1,0 +1,107 @@
+header {
+  background: #fff;
+  padding: 15px 0;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: wrap;
+    .logo {
+      display: flex;
+      align-items: center;
+      img {
+        padding-right: 15px;
+      }
+      p {
+        color: #191919;
+        font-family: "SF Pro Text";
+        font-weight: 600;
+      }
+    }
+    ul {
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      li {
+        padding: 0 20px;
+
+        a {
+          font-family: "SF Pro Text";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          text-align: center;
+          color: #191919;
+          &:hover {
+            color: rgba(255, 112, 16, 1);
+          }
+        }
+      }
+    }
+    .btnn {
+      background-color: rgba(255, 112, 16, 1);
+      color: white;
+      background: #ff7010;
+      border-radius: 4px;
+      padding: 9px 16px;
+      border: none;
+      cursor: pointer;
+      &:hover{
+        background:#ed6002
+      }
+    }
+  }
+}
+.img {
+  padding-top: 31px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  button{
+    border:none;
+    border-radius:112px;
+    width: 11%;
+    img{
+      width: 100%;
+    }
+  }
+  
+}
+
+.list{
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .navbar{
+    display: none;
+  }
+  .btnn{
+    display: none;
+  }
+  .list{
+    display: inline;
+  }
+  .img{
+    button{
+      width: 24%;
+    }
+    @media screen and (max-width: 610px) {
+      display: none;
+    }
+  }
+}
+
+// header{
+//   margin: 0 auto;;
+//   position: fixed;
+//   top: 0;
+//   left: 10%;
+//   z-index: 100;
+// }
+// nav{
+//   position: fixed;
+//   z-index: 9999;
+// }

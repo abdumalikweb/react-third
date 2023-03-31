@@ -1,0 +1,76 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  // align-items: center;
+  padding-top: 30px;
+
+  gap: 30px 0;
+}
+
+.pizzaa {
+  padding-top: 30px;
+}
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+
+    /* Black */
+
+    color: #191919;
+  }
+  button {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    /* Black */
+
+    color: #191919;
+    padding: 6px 40px;
+    background: #ffffff;
+    /* Line gray */
+
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    &:hover {
+      background: rgba(255, 112, 16, 1);
+      color: white;
+    }
+  }
+}
+
+.allSum {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  display: flex;
+  align-items: center;
+
+  /* Primary */
+
+  color: #ff7010;
+}
+

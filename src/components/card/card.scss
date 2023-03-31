@@ -1,0 +1,99 @@
+.btnColor {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background: rgba(255, 112, 16, 1);
+
+  /* White */
+
+  color: #ffffff;
+}
+
+.price {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  /* Primary */
+
+  color: #ff7010;
+}
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+card-title {
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  /* identical to box height, or 133% */
+
+  display: flex;
+  align-items: center;
+
+  /* Black */
+
+  color: #191919;
+}
+.card-text {
+  padding: 15px 0;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  /* or 138% */
+
+  /* Black */
+
+  color: #191919;
+}
+.btnColor {
+  // height: 500px;
+  padding: 8px 20px;
+  background: #ff7010;
+  border-radius: 6px;
+  font-family: "SF Pro Text";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  border: none;
+  /* identical to box height, or 138% */
+
+  // display: flex;
+  // align-items: center;
+  // text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+  &:hover {
+    background: #d75600;
+  }
+}
+.productimg {
+  width: 100%;
+}
+
+.card {
+  border: none;
+}
